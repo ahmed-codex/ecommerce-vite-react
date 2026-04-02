@@ -41,8 +41,8 @@ const SlideProduct = ({ data, title }) => {
             navigation={true}
             modules={[Autoplay, Navigation]}
             breakpoints={{
-              320: { slidesPerView: 2, spaceBetween: 4 }, // من 320px إلى 639px → عنصر واحد
-              640: { slidesPerView: 2, spaceBetween: 6 }, // من 640px → عنصرين
+              320: { slidesPerView: 1, spaceBetween: 4 }, // من 320px إلى 639px → عنصر واحد
+              640: { slidesPerView: 2, spaceBetween: 5 }, // من 640px → عنصرين
               768: { slidesPerView: 3, spaceBetween: 15 }, // من 768px → 3 عناصر
               1024: { slidesPerView: 4, spaceBetween: 20 }, // من 1024px → 4 عناصر
               1280: { slidesPerView: 5, spaceBetween: 30 }, // من 1280px → 5 عناصر
