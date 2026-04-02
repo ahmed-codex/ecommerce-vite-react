@@ -14,7 +14,7 @@ import { Link, useNavigate } from "react-router-dom";
 const SlideProduct = ({ data, title }) => {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-2xl px-3 py-5 sm:px-5 sm:py-6 sm:p-10 md:py-8 lg:py-10 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl px-2 py-5 sm:px-5 sm:py-6 sm:p-10 md:py-8 lg:py-10 lg:max-w-7xl lg:px-8">
         <Link to={`/category/${title.replace(" ", "-")}`}>
           <h2 className="text-2xl font-bold tracking-tight text-mist-500 capitalize border-mist-500">
             {title}
