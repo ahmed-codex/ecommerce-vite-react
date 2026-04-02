@@ -77,7 +77,7 @@ const Header = () => {
                 onClick={() => setOpen(!open)}
               >
                 <MdFormatListBulleted />
-                <h6 className="text-sm sm:text-sm md:text-base lg:text-base">Category list</h6>
+                <h6 className="text-xs sm:text-sm md:text-base lg:text-base">Category list</h6>
                 <BiChevronDown className={`transition-all duration-300 text-xl ${open ? "rotate-180" : ""}`} />
               </div>
 
