@@ -25,7 +25,7 @@ const SlideProduct = ({ data, title }) => {
           <span className="border-2 flex-1  border-mist-200"></span>
         </p>
 
-        <div className="mt-6 p-5  xl:gap-x-8">
+        <div className="mt-6 p-2 md:p-5  xl:gap-x-8">
           <Swiper
       
             // spaceBetween={30}
