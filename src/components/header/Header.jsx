@@ -68,7 +68,7 @@ const Header = () => {
             </div>
 
             {/* Logo */}
-            <h2 className="logo text:3xl sm:text-2xl sm:mr-2 md:text-3xl lg:text-4xl text-gray-100 shrink-0">Ahmed</h2>
+            <h2 className="logo text:2xl sm:text-2xl sm:mr-2 md:text-3xl lg:text-4xl text-gray-100 ">Ahmed</h2>
 
             {/* Category */}
             <div className="block relative shrink-0">
