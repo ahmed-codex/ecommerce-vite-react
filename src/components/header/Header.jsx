@@ -57,7 +57,7 @@ const Header = () => {
     <div className="fixed w-full z-10  ">
       <Disclosure as="nav" className="relative bg-mist-600  sm:px-3 ">
         <div className="mx-auto max-w-7xl px-2 sm:px-4 md:px-2 lg:px-8 min-w-0">
-          <div className="flex h-12 sm:h-12 md:h-14 lg:h-16 items-center justify-between gap-0 md:gap-3 lg:gap-4 ">
+          <div className="flex h-14 sm:h-14 md:h-14 lg:h-16 items-center justify-between gap-0 md:gap-3 lg:gap-4 ">
 
             {/* Mobile menu */}
             <div className="flex items-center  sm:hidden md:hidden">
