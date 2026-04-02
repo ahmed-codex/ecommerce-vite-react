@@ -73,7 +73,7 @@ const Header = () => {
             {/* Category */}
             <div className="block relative shrink-0">
               <div
-                className="flex items-center gap-1 text-sm sm:text-sm md:text-base lg:text-xl text-gray-300 bg-white/5 hover:text-white rounded-md px-1 py-1 md:px-2 md:py-2 lg:px-3 lg:py-2 cursor-pointer"
+                className="flex items-center gap-1 text-xl sm:text-sm md:text-base lg:text-xl text-gray-300 bg-white/5 hover:text-white rounded-md px-1 py-1 md:px-2 md:py-2 lg:px-3 lg:py-2 cursor-pointer"
                 onClick={() => setOpen(!open)}
               >
                 <MdFormatListBulleted />
