@@ -62,18 +62,18 @@ const Header = () => {
             {/* Mobile menu */}
             <div className="flex items-center  sm:hidden md:hidden">
               <Disclosure.Button className="p-2 text-gray-400">
-                <FaBars className=" size-4 sm:size-4 md:size-5 lg:size-6  group-data-open:hidden"/>
+                <FaBars className=" size-5 sm:size-5 md:size-5 lg:size-6  group-data-open:hidden"/>
                 <MdClose className="hidden size-6 group-data-open:block"/>
               </Disclosure.Button>
             </div>
 
             {/* Logo */}
-            <h2 className="logo text:xl sm:text-2xl sm:mr-2 md:text-3xl lg:text-4xl text-gray-100 shrink-0">Ahmed</h2>
+            <h2 className="logo text:2xl sm:text-2xl sm:mr-2 md:text-3xl lg:text-4xl text-gray-100 shrink-0">Ahmed</h2>
 
             {/* Category */}
             <div className="block relative shrink-0">
               <div
-                className="flex items-center gap-1 text-xs sm:text-sm md:text-base lg:text-xl text-gray-300 bg-white/5 hover:text-white rounded-md px-1 py-1 md:px-2 md:py-2 lg:px-3 lg:py-2 cursor-pointer"
+                className="flex items-center gap-1 text-sm sm:text-sm md:text-base lg:text-xl text-gray-300 bg-white/5 hover:text-white rounded-md px-1 py-1 md:px-2 md:py-2 lg:px-3 lg:py-2 cursor-pointer"
                 onClick={() => setOpen(!open)}
               >
                 <MdFormatListBulleted />
@@ -136,7 +136,7 @@ const Header = () => {
                 className="lg:hidden p-2 text-olive-300 hover:text-white cursor-pointer -mr-2"
                 onClick={() => setOpenSearch(true)}
               >
-                <IoSearchSharp className="size-4 sm:size-5 md:size-6 lg:size-7" />
+                <IoSearchSharp className="size-5 sm:size-5 md:size-6 lg:size-7" />
               </button>
 
               {/* Favorite */}
@@ -144,7 +144,7 @@ const Header = () => {
                 onClick={() => navgate("/favorite")}
                 className="relative flex p-2 text-olive-300 hover:text-white cursor-pointer"
               >
-                <FaRegHeart className="size-4 sm:size-5 md:size-6 lg:size-7" />
+                <FaRegHeart className="size-5 sm:size-5 md:size-6 lg:size-7" />
 
                 {favItems.length > 0 && (
                   <span
@@ -164,7 +164,7 @@ const Header = () => {
                 onClick={() => navgate("/cart")}
                 className="relative flex p-2 text-olive-300 hover:text-white cursor-pointer"
               >
-                <TiShoppingCart className="size-4 sm:size-5 md:size-6 lg:size-7" />
+                <TiShoppingCart className="size-5 sm:size-5 md:size-6 lg:size-7" />
 
                 {cartItems.length > 0 && (
                   <span
