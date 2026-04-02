@@ -14,7 +14,7 @@ import { Link, useNavigate } from "react-router-dom";
 const SlideProduct = ({ data, title }) => {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-2xl px-3 py-5 sm:px-5 sm:py-6 sm:p-10 md:py-8 lg:py-10 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl px-4 py-5 sm:px-5 sm:py-6 sm:p-10 md:py-8 lg:py-10 lg:max-w-7xl lg:px-8">
         <Link to={`/category/${title.replace(" ", "-")}`}>
           <h2 className="text-2xl font-bold tracking-tight text-mist-500 capitalize border-mist-500">
             {title}
@@ -25,7 +25,7 @@ const SlideProduct = ({ data, title }) => {
           <span className="border-2 flex-1  border-mist-200"></span>
         </p>
 
-        <div className="mt-6 p-2 md:p-5  xl:gap-x-8">
+        <div className="mt-6 p-5  xl:gap-x-8">
           <Swiper
       
             // spaceBetween={30}
@@ -41,7 +41,7 @@ const SlideProduct = ({ data, title }) => {
             navigation={true}
             modules={[Autoplay, Navigation]}
             breakpoints={{
-              320: { slidesPerView: 1, spaceBetween: 3 }, // من 320px إلى 639px → عنصر واحد
+              320: { slidesPerView: 2, spaceBetween: 3 }, // من 320px إلى 639px → عنصر واحد
               640: { slidesPerView: 2, spaceBetween: 5 }, // من 640px → عنصرين
               768: { slidesPerView: 3, spaceBetween: 15 }, // من 768px → 3 عناصر
               1024: { slidesPerView: 4, spaceBetween: 20 }, // من 1024px → 4 عناصر
