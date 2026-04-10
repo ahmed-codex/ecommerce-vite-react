@@ -68,7 +68,7 @@ export default function ProductDeatails() {
           </div>
           <div>
             <strong className="text-lg truncate line-clamp-2 w-35 md:w-40 lg:w-48">{product.title}</strong>
-            <p className="text-sm py-2">Added to Cart</p>
+            <p className="text-sm py-2 text-mist-500">Added to Cart</p>
             <button
               className="inline-flex items-center cursor-pointer transition-all duration-300 hover:bg-mist-600 gap-2 rounded-lg bg-mist-500 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-600 data-open:bg-gray-700"
               onClick={() => navgate("/cart")}
@@ -92,7 +92,7 @@ export default function ProductDeatails() {
           </div>
           <div>
             <strong className="text-lg truncate line-clamp-2 w-35 md:w-40 lg:w-48">{product.title}</strong>
-            <p className="text-sm py-2">Removed from Cart</p>
+            <p className="text-sm py-2 text-mist-500">Removed from Cart</p>
             <button
               className="inline-flex items-center cursor-pointer transition-all duration-300 hover:bg-mist-600 gap-2 rounded-lg bg-mist-500 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-600 data-open:bg-gray-700"
               onClick={() => navgate("/cart")}
@@ -119,7 +119,7 @@ export default function ProductDeatails() {
           </div>
           <div>
             <strong className="text-lg truncate line-clamp-2 w-35 md:w-40 lg:w-48">{product.title}</strong>
-            <p className="text-sm py-2">Added to Favorite</p>
+            <p className="text-sm py-2 text-mist-500">Added to Favorite</p>
             <button
               className="inline-flex items-center cursor-pointer transition-all duration-300 hover:bg-mist-600 gap-2 rounded-lg bg-mist-500 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-600 data-open:bg-gray-700"
               onClick={() => navgate("/favorite")}
@@ -143,7 +143,7 @@ export default function ProductDeatails() {
           </div>
           <div>
             <strong className="text-lg truncate line-clamp-2 w-35 md:w-40 lg:w-48">{product.title}</strong>
-            <p className="text-sm py-2">Removed from Favorite</p>
+            <p className="text-sm py-2 text-mist-500">Removed from Favorite</p>
             <button
               className="inline-flex items-center cursor-pointer transition-all duration-300 hover:bg-mist-600 gap-2 rounded-lg bg-mist-500 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:not-data-focus:outline-none data-focus:outline data-focus:outline-white data-hover:bg-gray-600 data-open:bg-gray-700"
               onClick={() => navgate("/favorite")}

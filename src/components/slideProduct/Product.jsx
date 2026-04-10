@@ -28,7 +28,7 @@ const Product = ({ item }) => {
           </div>
           <div className="flex flex-col overflow-hidden">
             <strong className="text-sm sm:text-base truncate line-clamp-2 w-35 md:w-40 lg:w-48">{item.title}</strong>
-            <p className="text-xs sm:text-sm py-1 text-mist-700">Added to Cart</p>
+            <p className="text-xs sm:text-sm py-1 text-mist-500">Added to Cart</p>
             <button
               className="mt-1 w-fit text-xs sm:text-sm 
         rounded-md bg-mist-500 px-2 sm:px-3 py-1 
@@ -50,7 +50,7 @@ const Product = ({ item }) => {
           </div>
           <div className="flex flex-col overflow-hidden">
             <strong className="text-sm sm:text-base truncate line-clamp-2 w-35 md:w-40 lg:w-48">{item.title}</strong>
-            <p className="text-xs sm:text-sm py-1 text-mist-700">Removed from Cart</p>
+            <p className="text-xs sm:text-sm py-1 text-mist-500">Removed from Cart</p>
             <button
               className="mt-1 w-fit text-xs sm:text-sm 
         rounded-md bg-mist-500 px-2 sm:px-3 py-1 
@@ -75,7 +75,7 @@ const Product = ({ item }) => {
           </div>
           <div className="flex flex-col overflow-hidden">
             <strong className="text-sm sm:text-base truncate line-clamp-2 w-35 md:w-40 lg:w-48">{item.title}</strong>
-            <p className="text-xs sm:text-sm py-1 text-mist-700">Added to Fav</p>
+            <p className="text-xs sm:text-sm py-1 text-mist-500">Added to Fav</p>
             <button
               className="mt-1 w-fit text-xs sm:text-sm 
         rounded-md bg-mist-500 px-2 sm:px-3 py-1 
@@ -97,7 +97,7 @@ const Product = ({ item }) => {
           </div>
           <div className="flex flex-col overflow-hidden">
             <strong className="text-sm sm:text-base truncate line-clamp-2 w-35 md:w-40 lg:w-48">{item.title}</strong>
-            <p className="text-xs sm:text-sm py-1 text-mist-700">Removed from Fav</p>
+            <p className="text-xs sm:text-sm py-1 text-mist-500">Removed from Fav</p>
             <button
               className="mt-1 w-fit text-xs sm:text-sm 
         rounded-md bg-mist-500 px-2 sm:px-3 py-1 
