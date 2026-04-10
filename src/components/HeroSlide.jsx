@@ -12,7 +12,7 @@ const img= [
   "686d4a051c21359b7577ee191b02fb70.jpg",
   "791f8cd5afd3d9f571d41532d0165769.jpg",
   "a959c27ca359e1fc2c5453411253d1ad.jpg",
-  "ef169eeb1097eaa0cd21f0311524820e.jpg",
+  "ef169eeb1097eaa0cd21f0311524820e.jpg"
 ]
  
 
@@ -84,7 +84,7 @@ export default function Example() {
           <SwiperSlide>
             <img
               alt=""
-              src={`src/img/${img}`}
+              src={`/img/${img}`}
               className="h-full w-full object-cover"
             />
           </SwiperSlide>
