@@ -156,22 +156,22 @@ const Product = ({ item }) => {
         </div>
       </Link>
 
-      <div className="absolute top-8 md:top-10npm lg:top-13 -right-12  flex flex-col gap-3 md:gap-4 lg:gap-5 p-2 items-center justify-center space-x-1 z-5  transition-all duration-400 group-hover:right-1">
+      <div className="absolute top-8 md:top-10 lg:top-13 -right-1 lg:-right-12 flex flex-col gap-3 md:gap-4 lg:gap-5 p-2 items-center justify-center space-x-1 z-5  transition-all duration-400 group-hover:right-1">
         <span
-          className={`text-xl md:text-xl lg:text-2xl w-9 h-9 flex items-center justify-center rounded-full cursor-pointer
+          className={`text-sm md:text-xl lg:text-2xl w-6 h-6 md:w-9 md:h-9 flex items-center justify-center rounded-full cursor-pointer
                  ${IsInCart ? "text-olive-100 bg-mist-600" : "text-mist-600 bg-olive-100"}`}
           onClick={handelAddToCart}
         >
           <TiShoppingCart />
         </span>
         <span
-          className={`text-xl md:text-xl lg:text-2xl w-9 h-9 flex items-center justify-center rounded-full cursor-pointer 
+          className={`text-sm md:text-xl lg:text-2xl w-6 h-6 md:w-9 md:h-9 flex items-center justify-center rounded-full cursor-pointer 
                   ${IsInFav ? "text-olive-100 bg-mist-600" : "text-mist-600 bg-olive-100"}`}
           onClick={handelAddToFav}
         >
           <MdFavoriteBorder />
         </span>
-        <span className="text-xl md:text-xl lg:text-2xl text-mist-600 bg-olive-100 w-9 h-9 flex items-center justify-center rounded-full cursor-pointer">
+        <span className="text-sm md:text-xl lg:text-2xl text-mist-600 bg-olive-100 w-6 h-6 md:w-9 md:h-9 flex items-center justify-center rounded-full cursor-pointer">
           <IoIosShareAlt />
         </span>
       </div>

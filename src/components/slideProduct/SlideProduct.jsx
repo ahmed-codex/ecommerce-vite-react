@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { Link, useNavigate } from "react-router-dom";
+import { Autoplay, Navigation } from "swiper/modules";
+import { Link} from "react-router-dom";
 
 const SlideProduct = ({ data, title }) => {
   return (
