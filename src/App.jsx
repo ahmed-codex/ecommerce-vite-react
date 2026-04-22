@@ -11,6 +11,7 @@ import Search from "./pages/Search/Search";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import ConfirmCart from "./pages/Confirm/ConfirmCart";
 
 function App() {
   return (
@@ -32,10 +33,11 @@ function App() {
       />
 
       <main className="pt-15">
-        <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/confirmCart" element={<ConfirmCart />} />
           <Route path="/favorite" element={<Favorite />} />
           <Route path="/search" element={<Search />} />
           <Route path="/about" element={<About />} />

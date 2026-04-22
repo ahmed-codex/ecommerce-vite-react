@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { CartContext } from "../../components/contexts/CartContext";
 import { RiDeleteBinFill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 const Cart = () => {
   const { cartItems, increasQuantity, decreasQuantity, removeFromCart } =
@@ -13,6 +14,7 @@ const Cart = () => {
   );
 
   const navgate = useNavigate();
+
   return (
     <div className="w-full max-w-3xl mx-auto my-4 ">
       <div className="flex  flex-col overflow-y-auto p-3 bg-white shadow-xl border border-mist-500/15 rounded-xl">
@@ -99,7 +101,24 @@ const Cart = () => {
 
           {/* checkout Button  */}
           <div className="mt-5 w-full">
-            <button className="flex w-full items-center justify-center rounded-md cursor-pointer transition-all duration-300 bg-mist-500 px-6 py-3 text-base font-medium text-white shadow-xs hover:bg-mist-600 focus:ring-2 focus:ring-mist-500 focus:ring-offset-2 focus:outline-hidden">
+            <button
+              onClick={() =>
+                cartItems.length > 0
+                  ? navgate("/confirmCart")
+                  : toast.error(
+                      "Your cart is empty. Add items to proceed to checkout 🚚",
+                      {
+                        position: "top-center",
+                        autoClose: 2000,
+                        style: {
+                          width: "300px",
+                          height: "60px",
+                        },
+                      },
+                    )
+              }
+              className="flex w-full items-center justify-center rounded-md cursor-pointer transition-all duration-300 bg-mist-500 px-6 py-3 text-base font-medium text-white shadow-xs hover:bg-mist-600 focus:ring-2 focus:ring-mist-500 focus:ring-offset-2 focus:outline-hidden"
+            >
               Checkout
             </button>
           </div>
